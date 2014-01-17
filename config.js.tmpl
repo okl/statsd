@@ -1,0 +1,16 @@
+{
+    debug: false,
+    opentsdbHost: '__OPENTSDB_HOST__',
+    opentsdbPort: '__OPENTSDB_PORT__',
+    opentsdbTagPrefix: '_t_',
+    backends: [ "./backends/opentsdb" ],
+    opentsdb: {
+        legacyNamespace: false,
+        globalPrefix:     "stats",
+        prefixCounter:    "",
+        prefixTimer:      "",
+        prefixGauge:      "",
+        prefixSet:        ""
+    }
+
+}
