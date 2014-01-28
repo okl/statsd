@@ -112,7 +112,8 @@ port: 8125
 }
 */
 {
-    debug: true,        
+    debug: true, 
+    title: false,       
     opentsdbHost: 'localhost',
     opentsdbPort: '4242',
     opentsdbTagPrefix: '_t_',
